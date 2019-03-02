@@ -1,0 +1,16 @@
+.block{
+  margin: 5px 10px;
+  height:auto;
+  background-color: white;
+  padding: 5px;
+}
+.cont{
+  display: inline-block;
+  vertical-align: top;
+}
+.cont p{
+  align: right;
+}
+.content{
+  width: 60% auto;
+}

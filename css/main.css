@@ -1,0 +1,39 @@
+p {
+  orphans: 3;
+  widows: 3;
+  padding: 0 15px;
+  white-space: pre-wrap;
+}
+.image{
+  max-width: 320px;
+  height: auto;
+  transition: 1s;
+}
+.image:hover {
+  max-width: 500px;
+  transition: .8s;
+}
+.images{
+  max-width: 300px;
+  height: auto;
+  transition: 1s;
+}
+.images:hover{
+  max-width: 310px;
+  transition: .8s;
+}
+.first{
+  vertical-align: top;
+}
+.third{
+  width:33%;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+.third .left{
+  align: left;
+}
+.third .right{
+  float: right;
+}
